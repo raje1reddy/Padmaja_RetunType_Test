@@ -10,9 +10,11 @@ public class PhoneTest {
 
     }
     @org.junit.Test
-    //no method parameter is passed so no value  will be returned
+
+    //The returned value is assigned to variable i.e double value
     public void getWeight1() {
         Phone p = new Phone();
-        p.getWeight();
+       double value = p.getWeight();
+       System.out.println(value);
     }
 }
